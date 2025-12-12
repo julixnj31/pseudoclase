@@ -4,15 +4,14 @@ button {
   padding: 1rem 2rem;
   font-size: 1rem;
   font-weight: bold;
-  color: #fff;
+  color: #002fff;
   background: #3498db;
   border: none;
   border-radius: 8px;
-  cursor: pointer;
-  transition: background 0.3s;
 }
 button:hover {
-  background: #2ecc71;
+  background: #ff0000;
+  cursor:progress;
 }
 
 p::first-letter {
@@ -40,15 +39,25 @@ input {
   border: 2px solid #ccc;
   border-radius: 6px;
   outline: none;
-  transition: border-color 0.3s, box-shadow 0.3s;
 }
 input:focus {
-  border-color: #3498db;
+  background-color: #3498db;
   box-shadow: 0 0 6px rgba(52, 152, 219, 0.5);
 }
 
 li:first-child {
-  background: #f39c12;
-  color: #fff;
+  background: #ff9d00;
+  color: #ff0000;
   font-weight: bold;
+  display: inline-block;
 }
+* {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+  nav a {
+      color: #f9fafb;
+      text-decoration: none;
+      margin: 0 12px;
+      font-weight: 600;
+      transition: color 0.3s ease; 
+    }

@@ -1,0 +1,87 @@
+#boton1:hover{
+    background-color: rgb(55, 11, 255);
+    color: yellow;
+    cursor: move;
+}
+#boton2:active{
+    background-color: rgb(0, 255, 34);
+    color: rgb(255, 0, 221);
+}
+#boton3:focus{
+    background-color: rgb(255, 0, 234);
+    color: rgb(0, 0, 0);
+}
+main {
+    font-family: Arial, sans-serif;
+}
+button {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif
+     
+}
+li:first-child{
+    background-color: rgb(255, 0, 0);
+    display: inline-block;
+    color: yellowgreen;
+}
+
+li:last-child{
+    background-color: rgb(136, 255, 0);
+    display: inline-block;
+    color: blue;
+}
+li:nth-child(3){
+    background-color: rgb(0, 255, 221);
+    display: inline-block;
+    color: brown;
+}
+
+.text::first-letter{
+    font-size: 30px;
+    color: blueviolet;
+}
+.text::first-line{
+    font-size: 20px;
+    color: red;
+}
+
+.titulo-con-iconos::before {
+    content: "🔥";
+    margin-right: 10px;
+    font-size: 1.2em;
+  margin-left: 5px;  }
+
+.card {
+  position: relative;
+  width: 320px;
+  background: #c2c2c2;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+  margin: 40px auto;          
+  padding: 30px;              
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;    
+     
+}
+.card::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(135deg, #ff0000, #003cff);
+  border-radius: 50%;
+  opacity: 0.3;
+  z-index: -1;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+  color: rgb(255, 0, 0);
+}
+.btn {
+    color: #000000;
+    background-color: rgb(58, 57, 57);
+    cursor: zoom-in;
+}
